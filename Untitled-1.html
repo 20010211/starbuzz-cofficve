@@ -8,33 +8,20 @@
 </head>
 <body>
   <script>
-    function whoisbigger(x,y){
-      if (x > y){
-        return x
-      }else{
-        return y
-      }
+  function bark(name,weight){
+    if (weight>=15){
+      document.writeln("dog wang wang jiao");
+    }else{
+      document.writeln("dog wu wu jiao");
     }
+  }
 
-      document.write(whoisbigger(1,2))
-      document.write('<br>')
-      document.write(whoisbigger(1132,2424))
-      document.write('<br>')
-      document.write(whoisbigger(124,24245))
-      document.write('<br>')
-      document.write(whoisbigger(11241,24124))
-      document.write('<br>')
-      document.write(whoisbigger(1412,2422))
-      document.write('<br>')
-      document.write(whoisbigger(122,2444))
-      document.write('<br>')
+  bark("dd",10);
+  bark("cc",20);
 
-      document.write('<br>'+Math.random())
-      document.write('<br>'+Math.random())
-      document.write('<br>'+Math.random())
-      document.write('<br>'+Math.random())
-      document.write('<br>'+Math.random())
-      document.write('<br>'+Math.floor(Math.random()*10))
+
+
+  
   </script>
 </body>
 </html>
